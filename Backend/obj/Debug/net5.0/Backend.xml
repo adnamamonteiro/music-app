@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Backend</name>
+    </assembly>
+    <members>
+        <member name="M:Backend.Controllers.AlbumController.Get">
+            <summary>
+            Lists all albums
+            </summary>
+        </member>
+        <member name="M:Backend.Controllers.AlbumController.GetById(System.Guid)">
+            <summary>
+            Get album by id
+            </summary>
+        </member>
+        <member name="M:Backend.Controllers.AlbumController.Post(Backend.Model.Album)">
+            <summary>
+            Add a new album 
+            </summary>
+        </member>
+        <member name="M:Backend.Controllers.AlbumController.Delete(System.Guid)">
+            <summary>
+            Deletes an album 
+            </summary>
+        </member>
+        <member name="M:Backend.Controllers.MusicController.GetAll(System.Guid)">
+            <summary>
+            Lists every music from an album
+            </summary>
+        </member>
+        <member name="M:Backend.Controllers.MusicController.Get(System.Guid)">
+            <summary>
+            Get music by id
+            </summary>
+        </member>
+        <member name="M:Backend.Controllers.MusicController.Post(System.Guid,Backend.Model.Music)">
+            <summary>
+            Add music to album
+            </summary>
+        </member>
+        <member name="M:Backend.Controllers.UserController.Register(Backend.ViewModel.RegisterUserViewModel)">
+            <summary>
+            Add new user
+            </summary>
+        </member>
+        <member name="M:Backend.Controllers.UserController.SignIn(Backend.ViewModel.SignInViewModel)">
+            <summary>
+            Sign In
+            </summary>
+        </member>
+        <member name="M:Backend.Controllers.UserController.GetUserFavoriteMusic(System.Guid)">
+            <summary>
+            Lists user favorite musics
+            </summary>
+        </member>
+        <member name="M:Backend.Controllers.UserController.SaveUserFavoriteMusic(System.Guid,System.Guid)">
+            <summary>
+            Add music to user favorite musics list
+            </summary>
+        </member>
+        <member name="M:Backend.Controllers.UserController.RemoveUserFavoriteMusic(System.Guid,System.Guid)">
+            <summary>
+            Deletes music from user favorite musics list
+            </summary>
+        </member>
+    </members>
+</doc>
